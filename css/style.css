@@ -4,6 +4,7 @@ body{
   font-size: 100%;
   font-family: 'Droid Serif', serif;
   line-height:1.5;
+  background: #ECF0F1 !important;
 }
 label{
   font-weight: normal;
@@ -16,7 +17,7 @@ label{
 
 .box {
   padding: 2em;
-  color: white;
+  color: #0E2430;
 }
 
 .header {
@@ -30,6 +31,7 @@ text-align: center;
   font-size: 2.5em;
   margin: 0px;
   font-family: 'Droid Serif', sans-serif;
+  color: #7F8C8D;
 }
 
 .header .name-field p{
@@ -37,26 +39,19 @@ text-align: center;
   font-size: 1em;
 }
 
-.blue {
-  background: #83AF9B;
+.about {
+  color: ##0E2430;
+background: #1ABC9C;
+border-radius: 1em 1em 0 0;
 }
 
-.beige {
-  background: #C8C8A9;
+.about-text {
+  color: #1ABC9C;
+background: #0E2430;
 }
 
-.lightpink {
-  background: #F9CDAD;
-}
 
-.pink {
-  background: #FC9D9A;
-}
 
-.superpink {
-  background: #FE4365;
-
-}
 
 .personal-data {
 
@@ -78,3 +73,20 @@ text-align: center;
 .box label {
   color: #777;
 }
+
+.skill-level h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.skill-level p {
+  font-weight: bold;
+    color: grey;
+
+}
+
+.interests {
+  list-style: none;
+}
+
+
