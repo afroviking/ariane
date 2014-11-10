@@ -1,2 +1,102 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+    background: #1abc9c !important;
+}
+.header {
+    text-align: center;
+}
+.header h1 {
+    font-size: 3em;
+    color: #1abc9c;
+    font-family: "Lato";
+    margin: 0.50em;
+    padding: 0em;
+    font-weight: 700;
+}
+.header h3 {
+    font-size: 1.3em;
+    color: #1abc9c;
+    font-family: "Lato";
+    font-weight: 700;
+}
+.about {
+    margin-top: 0.3em;
+}
+.about h2 {
+    font-family: "Lato";
+    font-size: 2.5em;
+    color: #1abc9c;
+    font-weight: 700;
+}
+.about h1 {
+    font-family: "Lato";
+    font-size: 3em;
+    color: #1abc9c;
+    font-weight: 700;
+}
+.about p {
+    font-family: "Open Sans", serif;
+    font-size: 1em;
+}
+span.skills {
+    background: #1abc9c;
+    border-radius: 2px;
+    color: #f5f5f5;
+    font-weight: bold;
+    padding: 2px 4px;
+}
+span.languages {
+    background: #e74c3c;
+    border-radius: 2px;
+    color: #f5f5f5;
+    font-weight: bold;
+    padding: 2px 4px;
+}
+
+.profile-image {
+    border: 0.2em solid #1abc9c;
+    visibility: 20%;
+    border-radius: 50%;
+}
+.profile {
+    display: inline-block;
+}
+.projects {
+    display: inline-block;
+    text-align: center;
+}
+/* Sets project image size */
+
+.projects img {
+    height: 10em;
+    width: 15em;
+    margin: 0 auto 1em auto;
+}
+/* Styles the divider */
+
+.container hr {
+    border-top: 0.2em solid #1abc9c;
+    max-width: 25%;
+}
+/* Centers icons and does not display as list */
+
+.social {
+    text-align: center;
+    list-style: none;
+}
+/* Removes the padding from ul */
+
+.social ul {
+    padding: 0;
+}
+/* Styles the social sharing icons */
+
+.social li {
+    color: #1abc9c;
+}
+/* Applies box shadow to the card style containers */
+
+.container .well {
+    box-shadow: 0 0.3em #7f8c8d
+}
