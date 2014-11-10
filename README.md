@@ -5,7 +5,7 @@ ariane
 Inspired by [snippet] from [Maria Del Carmen]. 
 
 
-**Demo:** [grym]
+**Demo:** [Ariane]
 
 [bootstrap]:http://getbootstrap.com/
 [Font Awesome]:http://fortawesome.github.io/Font-Awesome/
