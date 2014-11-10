@@ -100,3 +100,13 @@ span.languages {
 .container .well {
     box-shadow: 0 0.3em #7f8c8d
 }
+
+.footer {
+  background: #ecf0f1;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.footer a {
+  color: #1abc9c;
+}
